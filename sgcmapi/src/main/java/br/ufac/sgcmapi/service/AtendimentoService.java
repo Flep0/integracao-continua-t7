@@ -53,7 +53,7 @@ public class AtendimentoService implements ICrudService<Atendimento> {
         if (registro != null) {
             var novoStatus = registro.getStatus().proximo();
             // registro.setStatus(novoStatus);
-            registro = this.salvar(registro);
+            // registro = this.salvar(registro);
         }
         return registro;
     }
